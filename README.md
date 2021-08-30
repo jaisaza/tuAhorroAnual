@@ -15,5 +15,5 @@ atravez de actividades. y el usuario ahorrador solo tendra permiso para realizar
 van sus ahorros o cuanto debe hasta determinada fecha.
 
 Para ingresar al aplicativo como admin es con estos datos: 
-user: 1036688082 
-password: Colombia20
+user: 1152715284
+password: 12345
