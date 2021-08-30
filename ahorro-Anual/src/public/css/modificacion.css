@@ -1,0 +1,157 @@
+.header .logo-img-main {
+  /* padding-top: 5px; */
+  border-radius: 10px;
+  box-shadow: 4px 4px 16px 0px #40380e;
+}
+
+.cuerpo {
+  background-image: src= "../img/Logo-ahorro.png";
+}
+
+.carousel-title {
+  text-shadow: 2px 2px 12px #000;
+}
+
+.carousel-centered p {
+  text-shadow: 2px 2px 3px #000;
+  font-weight: 800;
+}
+
+.header .nav-item-child:hover,
+.page-on-scroll .header .nav-item-child:hover {
+  color: #fff;
+  transition-duration: 0s;
+}
+
+.header .nav-item-child,
+.page-on-scroll .header .nav-item-child {
+  text-shadow: 1px 1px 5px #000;
+}
+
+.page-on-scroll .header .nav-item-child:hover {
+  color: #fd871f;
+}
+
+.page-on-scroll .header .nav-item-child {
+  text-shadow: 0 0;
+}
+
+.btn-theme-sm {
+  text-shadow: 2px 2px 3px #000;
+}
+
+.btn-white-brd.focus,
+.btn-white-brd:focus,
+.btn-white-brd:hover {
+  text-shadow: 0 0;
+  color: #fff;
+}
+
+.page-on-scroll .header .logo-img-active {
+  width: 70px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 2px #40380e47;
+}
+
+.page-on-scroll .header .logo-wrap {
+  padding: 0;
+}
+
+.cards .service:hover {
+  background-color: #fd871f;
+}
+
+.cards .service:hover h3,
+.cards .service:hover p {
+  color: #fff;
+}
+
+.service-white {
+  padding: 50px;
+  color: white;
+  background: #fd871f;
+}
+
+.service-white .service-element,
+.service-white .service-info {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  transition-duration: 0.3s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.service-white .service-icon {
+  display: block;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.service-whtie .service-info .h3 .p {
+  color: white;
+}
+
+.service-white:hover .service-element {
+  opacity: 0;
+  -webkit-transform: translate3d(0, -100%, 0);
+  -moz-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  transition-duration: 0.3s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.service-white:hover .service-info {
+  -webkit-transform: translate3d(0, -30%, 0);
+  -moz-transform: translate3d(0, -30%, 0);
+  transform: translate3d(0, -30%, 0);
+  transition-duration: 0.3s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.image-user {
+  margin: auto;
+  max-width: 320px;
+  max-height: 320px;
+  border-radius: 50px;
+  margin-bottom: 25px;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.24);
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+.image-user1 {
+  margin: auto;
+  max-width: 430px;
+  max-height: 315px;
+  border-radius: 50px;
+  margin-bottom: 25px;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.24);
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.image-user:hover {
+  top: -10px;
+}
+
+.card-user {
+  text-align: center;
+}
+
+.modal-content {
+  margin-top: 97px;
+}
+
+.modal-title {
+  text-align: center;
+  font-size: 24px;
+}
+
+.modal-footer {
+  text-align: center;
+}
